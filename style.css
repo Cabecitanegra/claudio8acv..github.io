@@ -1,0 +1,413 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fdc00d;    
+}
+
+.imagen {
+    border-radius: 160px;
+    width: 22%;
+    box-shadow: 5px 10px 30px 5px #000329;
+    vertical-align: top;
+}
+
+
+.caja{
+    width: 1040px;
+    position: relative;
+    margin: 0 auto;    
+}
+
+nav{
+    position: absolute;
+    top:50px;
+    right: 0;    
+    }
+
+nav li{
+    display: inline;
+    margin: 20 10 20 15px;
+    padding: 10px 0px 10px 10px;
+}
+
+
+
+
+nav a{
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 0 10 0 0px;
+    padding: 8px;
+}
+
+nav a:hover{
+    color: #ffd760;
+    text-decoration: underline;
+}
+
+.btn-neon{
+    position: absolute;
+    display: initial;
+    padding: 5px 5px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 33px;
+    text-shadow: 3px 3px#141121;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 60%;
+    top: 60px;
+    left: 250px;
+}
+.btn-neon:hover{
+    background: #fc4a22;
+    box-shadow: 0 0 10px #fc4a22, 0 0 40px #fc4a22, 0 0 80px #fc4a22;
+    transition-delay: 1s;
+ }
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#fc4a22);
+ }
+
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#fc4a22);
+}
+
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#fc4a22);
+}
+
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#fc4a22);
+}
+
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+/*Aquí inicia el CSS para nuestra Inicio*/
+body {
+    margin: 0;
+  }
+  
+.carrusel {
+   
+    display: flex;
+    align-items: center;
+  }
+  
+.carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+  }
+  
+.carrusel-item {
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    outline: 2px solid black;
+    cursor: pointer;
+  }
+  
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.carrusel-item:hover {
+    transform: scale(1.2);
+  }
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold; 
+    margin: 0 0 1em;
+    clear:left;
+    color:#383839;
+   ;
+}
+
+.subtítulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+    color:#fdfdff;
+    background-color: #000329
+}
+
+.principal p{
+    margin: 0 0 1em;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.principal strong{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.principal em{
+    font-style: bold;
+    font-size: 25px;
+}
+
+.presentación{
+    width: 440px;
+    float:left;
+    margin: 0 30px 20px 0;
+    box-shadow: 5px 10px 30px 5px #02074a;
+}
+
+
+
+
+
+.características{
+    padding: 3em 0;
+    background: #fc4b1f;
+}
+
+.contenido-características{
+    width: 990px;
+    margin: 0 auto;
+}
+
+.características h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #000329;
+}
+
+.lista-características{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 2.5;
+    font-size: 25px;
+    color:#FEFEFE;
+}
+
+.items:before{
+    content:"◈ "
+}
+
+
+.imagen-características{
+    width: 50%;
+    transition: 400ms;
+    box-shadow: 5px 10px 30px 5px #000875;
+}
+
+.imagen-características:hover{
+    opacity: 0.2;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width:600px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .contenido-características, .video {
+        width: auto;
+    }
+    .lista-características, .imagen-características{
+        width: 100%;
+    }
+
+}
+
+
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 20px;
+    margin:20px;
+}
+
+
+
+/*Aquí inicia el CSS para nuestra PRODUCTOS*/
+.productos{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 2 1.5%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    border: 3px solid #2e38ff;
+    border-radius: 30px;
+}
+
+.productos li:hover{
+    border-color:#fc6a1c;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fc4b1f;
+    padding: 30px;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+    color: #141121;
+    background: #fdc00d;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+.producto-descripcion{
+    font-size: 20px;
+    padding: 30px 30px;
+}
+
+/*Aquí inicia el CSS para nuestra CONTACTO*/
+
+form{
+    margin: 40px 0;
+    padding:40px
+}
+
+form label, form legend{
+    display: block;
+    font-size: 23px;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.bg-image {
+    background-image: src="imagenes/background-contactos.jpg"
+}
+.select {
+    margin: 30px 0;
+    padding:30px
+}
+
+.input-padron{
+    display: block;
+    background-color: #dddfff;
+    margin: 0 0 25px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.checkbox{
+    margin:40px 0;
+}
+
+.enviar{
+    width: 50%;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    background: rgb(47, 134, 247);
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: rgb(244, 197, 43);
+    transform: scale(1.1);
+}
+
+
+
+
+
